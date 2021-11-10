@@ -22,4 +22,5 @@ THEN the password is either displayed in an alert or written to the page
 
 Desiged the password generator based on acceptance criteria. First use window.prompt and window.comfirm to let user decide the length of the passowrd, and whether include lowercase, uppercase, numeric, special characters. Second, I created a variable and use if statement to hold password string. And last, use for loop to randomly choose password from the password string and show password in webpage. 
 The public webpage link is https://jing-liu-778.github.io/Password-Generator-/
-![password generator](assets/password generator screenshot.png)
+The screenshot of the webpage link below:
+![password generator](Assets/password generator screenshot.png)
