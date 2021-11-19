@@ -8,7 +8,10 @@ function generatePassword(){
   
   // ask user to choose length of password
   var passwordLength = window.prompt("Choose length of password (at least 8 characters and no more than 128 characters). ");
-  
+  if(passwordLength<8 || passwordLength>128){
+    alert("Choose length of password (at least 8 characters and no more than 128 characters).")
+    return;
+  }
 // confirm whether include lowercase, uppercase, number, symbol
   var isLowercaseInclude = window.confirm("Whether include lowercase?");
   var isUppercaseInclude = window.confirm("Whether include uppercase?");
